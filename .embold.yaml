@@ -1,0 +1,26 @@
+version: 1
+# Sources mention which Files/Dirs to be taken for Analysis
+sources:
+  # Default Directory will be Current Directory for the yaml file. Once can specify the absolute path 
+  basedir: '.'
+  files:
+    # Default will be all Files in the base Dir 
+    - path: '/Src/StdLib/Lib/codecs.py'
+    - path: '/Tests/interop/net/loadorder/t7e.py'
+  exclusions:
+    - 'test'
+    - 'generated'
+    - 'mock'
+    - 'thirdparty'
+    - 'third-party'
+    - '3rd-party'
+    - '3rdparty'
+    - 'external'
+    - 'build'
+    - 'node_modules'
+    - 'assets'
+    - 'gulp'
+    - 'grunt'
+    - 'library'
+    - 'libs'
+    - '.git'
