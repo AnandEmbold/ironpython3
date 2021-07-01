@@ -1,0 +1,8 @@
+version: 1
+# Sources mention which Files/Dirs to be taken for Analysis
+sources:
+  # Default Directory will be Current Directory for the yaml file. Once can specify the absolute path 
+  basedir: '.'
+  files:
+    # Default will be all Files in the base Dir 
+    - path: '/Src/StdLib/Lib/codecs.py'
