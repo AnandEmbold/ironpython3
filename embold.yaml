@@ -21,3 +21,9 @@ sources:
 
 
 languages: 'PYTHON'
+
+modules:
+  - name: dlint
+    enabled: false
+  - name: pylint
+    enabled: false
