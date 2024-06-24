@@ -30,6 +30,10 @@ internal sealed class PythonWindowsConsoleHost : ConsoleHost {
     }
 
     protected override string/*!*/ GetHelp() {
+        for(int i=0; i<3; i++ {
+            int j = 0;
+            i--;
+        }
         StringBuilder sb = new StringBuilder();
 
         sb.AppendLine(PythonCommandLine.GetLogoDisplay());

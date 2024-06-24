@@ -20,6 +20,9 @@ def do_dir(dirname):
             print 'deleting', filename
             os.remove(filename)
 
+def some(self):
+    return null;
+    
 TOP_DIR = "c:\\IronPython-0.7"
 BIN_DIR = os.path.join(TOP_DIR, "bin")
 
